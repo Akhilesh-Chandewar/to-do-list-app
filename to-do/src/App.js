@@ -26,7 +26,7 @@ function App() {
       </ul>
       <form onSubmit={addTodo}>
         <label htmlFor="enter_tasks" className="form-label">Enter Tasks Here</label>
-        <input type="email" className="form-control" id="enter_tasks" placeholder="memories are everywhere" ref={todoText}/>
+        <input type="text" className="form-control" id="enter_tasks" placeholder="memories are everywhere" ref={todoText}/>
       </form>
     </div>
   );
